@@ -1,0 +1,252 @@
+.services {
+  .bg-img {
+    position: absolute;
+    top: -450px;
+    left: -400px;
+    opacity: 1;
+    mix-blend-mode: color-burn;
+  }
+  .bg-img-s {
+    display: none;
+    position: absolute;
+    top: -195px;
+    left: -215px;
+    opacity: 1;
+    mix-blend-mode: color-burn;
+  }
+
+  .container {
+    padding: 120px 0 155px;
+    .row1 {
+      margin-bottom: 155px;
+      text-align: center;
+
+      h2 {
+        margin-bottom: 20px;
+        font-size: $service-head;
+        font-weight: $medium;
+      }
+      p {
+        font-size: $button-l;
+        font-weight: $regular;
+        color: $gray1;
+      }
+    }
+    .row2 {
+      .services-details {
+        display: flex;
+        margin-bottom: 104px;
+        figure {
+          flex: 1;
+          margin-right: 80px;
+          background-color: $gray2;
+          border: 1px solid $gray1;
+        }
+        .right-div {
+          flex: 1;
+          .brand {
+            padding-top: 40px;
+            font-size: $brand-text;
+            font-weight: $light;
+            color: $black;
+            margin-bottom: 20px;
+          }
+          h1 {
+            font-size: $service-head1;
+            font-weight: $bold;
+            color: $black;
+            margin-bottom: 20px;
+          }
+          .para1 {
+            font-size: $button-l;
+            font-weight: $regular;
+            color: $gray1;
+            margin-bottom: 50px;
+          }
+          button {
+            padding: 15px 103px;
+            border-radius: 21px;
+            background-color: $red;
+            color: $white;
+            font-size: $button-l;
+            font-weight: $medium;
+            border: 0;
+            cursor: pointer;
+          }
+        }
+      }
+      .last-service {
+        margin-bottom: 250px;
+      }
+    }
+    .row2-1 {
+      display: none;
+      position: relative;
+      padding-bottom: 230px;
+      .bg-tale {
+        background-color: $light-green;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+      }
+      .service-pkgs {
+        h2 {
+          font-size: 25px;
+          color: white;
+          background-color: black;
+          padding: 27px 23px;
+          text-align: center;
+        }
+        .mid-div {
+          padding: 47px 23px;
+          .p1 {
+            font-size: 13px;
+            font-weight: bold;
+            margin-bottom: 25px;
+          }
+          .p2 {
+            font-size: 13px;
+            margin-bottom: 25px;
+          }
+          .p3 {
+            font-size: 13px;
+            margin-bottom: 25px;
+          }
+          button {
+            font-size: 13px;
+            padding: 15px 0;
+            width: 100%;
+            border-radius: 21px;
+            background-color: $red;
+            color: $white;
+            font-weight: $medium;
+            border: 0;
+            cursor: pointer;
+          }
+        }
+      }
+      figure {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        img {
+          position: absolute;
+          z-index: 1;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .services {
+    .container {
+      width: 100%;
+      padding: 0;
+      .row1 {
+        padding: 80px 30px 100px;
+        margin-bottom: 0;
+      }
+      .row2 {
+        padding: 0 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .services {
+    .bg-img {
+      display: block;
+    }
+
+    .container {
+      .row1 {
+        background: $red;
+        color: white;
+        padding-top: 0;
+        p {
+          color: white;
+        }
+      }
+      .row2 {
+        padding: 0 30px;
+
+        .services-details {
+          margin-bottom: 60px;
+          &:nth-child(1) {
+            figure {
+              display: none;
+            }
+          }
+          flex-direction: column;
+          figure {
+            margin-right: 0;
+            margin-bottom: 0;
+          }
+          .right-div {
+            .brand {
+              font-size: 15px;
+            }
+            h1 {
+              font-size: 30px;
+            }
+            .para1 {
+              font-size: 13px;
+            }
+            button {
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .services {
+    .bg-img {
+      display: none;
+    }
+    .bg-img-s {
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .services {
+    .container {
+      .row1 {
+        padding: 0 23px 60px;
+
+        h2 {
+          font-size: 30px;
+          text-align: left;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 12px;
+          text-align: left;
+        }
+      }
+      .row2 {
+        display: none;
+      }
+      .row2-1 {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .services {
+    .bg-img-s {
+      top: -109px;
+      left: -128px;
+    }
+  }
+}

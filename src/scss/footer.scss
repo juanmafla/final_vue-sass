@@ -1,0 +1,202 @@
+.footer {
+  background-color: $light-green;
+
+  .container {
+    padding-bottom: 65px;
+    h1 {
+      font-size: $footer-heading;
+      font-weight: $medium;
+      text-align: center;
+      padding: 34px 0 31px;
+    }
+    .row1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-row-gap: 18px;
+      grid-column-gap: 45px;
+      margin-bottom: 19px;
+      .position-input {
+        position: relative;
+        .error-span {
+          position: absolute;
+          right: 10px;
+          top: -20px;
+          color: $red;
+          font-size: $error;
+        }
+      }
+      .input-wrapper {
+        border-radius: 4px;
+        background: $white;
+        padding: 10px 14px;
+        box-shadow: 10px 10px 15px -14px rgba(45, 31, 80, 0.3);
+
+        label {
+          display: block;
+          font-size: $label;
+          color: $label-gray;
+          margin-bottom: 5px;
+        }
+        input {
+          color: $input-gray;
+          font-size: $input;
+          border: 0;
+          width: 100%;
+        }
+        select {
+          width: 100%;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+    .row2 {
+      padding: 21px 14px 9px;
+      border-radius: 4px;
+      background: $white;
+      margin-bottom: 67px;
+      h4 {
+        font-size: $label;
+        color: $label-gray;
+        margin-bottom: 15px;
+        opacity: 0.6;
+        font-weight: $regular;
+      }
+      .para {
+        font-size: 12px;
+        opacity: 0.3;
+        color: $black;
+        margin-bottom: 8px;
+      }
+      .limit {
+        font-size: $label;
+        color: $label-gray;
+        text-align: right;
+      }
+    }
+    .btn-wrap {
+      text-align: center;
+
+      .touch-btn {
+        background-color: $red;
+        border-radius: 21px;
+        color: $white;
+        padding: 16px 120px;
+        font-size: $button-l;
+        border: 0;
+        cursor: pointer;
+      }
+    }
+  }
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $red;
+    padding: 35px 30px;
+    .col1 {
+      p {
+        color: $white;
+        font-size: $button-l;
+        font-weight: $medium;
+      }
+    }
+    .col2 {
+      a {
+        &:last-child {
+          img {
+            margin-right: 0;
+          }
+        }
+        img {
+          margin-right: 53px;
+        }
+      }
+    }
+    .col3 {
+      .left-span {
+        margin-right: 65px;
+      }
+      span {
+        color: $white;
+        font-size: $button-l;
+        font-weight: $medium;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1530px) {
+  .footer .footer-content {
+    flex-direction: column-reverse;
+    .col3 {
+      display: flex;
+      flex-direction: column-reverse;
+      margin-bottom: 20px;
+      .left-span {
+        margin-right: 0;
+        text-align: center;
+      }
+      span {
+        text-align: center;
+      }
+      .right-span {
+        margin-bottom: 10px;
+      }
+    }
+    .col2 {
+      margin-bottom: 20px;
+    }
+    .col1 {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .footer {
+    .container {
+      width: 100%;
+      padding: 0 30px 65px;
+      .row1 {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .footer {
+    .container {
+      h1 {
+        font-size: 35px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .footer {
+    .container {
+      .row1 {
+        grid-template-columns: 1fr;
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .footer {
+    .container {
+      .btn-wrap {
+        .touch-btn {
+          padding: 16px 0;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
