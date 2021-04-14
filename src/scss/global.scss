@@ -140,8 +140,8 @@ a {
     display: none !important;
   }
   .carousel-cell {
-    width: 66%;
-    height: 200px;
+    width: 100%;
+    height: 270px;
     margin-right: 10px;
     border-radius: 5px;
     margin-top: 25px;
@@ -149,11 +149,24 @@ a {
   .col1 {
     text-align: center;
     h1 {
-      font-size: 25px;
       font-weight: $medium;
+      font-size: 43px;
+      font-weight: 500;
+      line-height: 46px;
+      margin-bottom: 41px;
+      margin-top: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+      color: $red;
+
+      span {
+        color: $black;
+      }
     }
     p {
       font-size: 12px;
+      padding-left: 30px;
+      padding-right: 30px;
     }
   }
   .flickity-page-dots {

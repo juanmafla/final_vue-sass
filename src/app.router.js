@@ -2,6 +2,9 @@ import VueRouter from 'vue-router';
 import Vue from 'vue';
 import homeModule from './pages/home';
 import servicesModule from './pages/services';
+import termsModule from './pages/terms';
+import privacyModule from './pages/privacy';
+import cookiesModule from './pages/cookies';
 
 Vue.use(VueRouter);
 

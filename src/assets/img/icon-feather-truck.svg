@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50.642" height="42.161" viewBox="0 0 50.642 42.161">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #df1f26;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g id="Icon_feather-truck" data-name="Icon feather-truck" transform="translate(2 2)">
+    <path id="Path_493" data-name="Path 493" class="cls-1" d="M1.5,4.5H33.3V32.061H1.5Z" transform="translate(-1.5 -4.5)"/>
+    <path id="Path_494" data-name="Path 494" class="cls-1" d="M24,12h8.48l6.36,6.36v10.6H24Z" transform="translate(7.801 -1.4)"/>
+    <path id="Path_495" data-name="Path 495" class="cls-1" d="M15.1,29.3A5.3,5.3,0,1,1,9.8,24a5.3,5.3,0,0,1,5.3,5.3Z" transform="translate(-0.26 3.561)"/>
+    <path id="Path_496" data-name="Path 496" class="cls-1" d="M34.6,29.3A5.3,5.3,0,1,1,29.3,24a5.3,5.3,0,0,1,5.3,5.3Z" transform="translate(7.801 3.561)"/>
+  </g>
+</svg>

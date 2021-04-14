@@ -1,6 +1,19 @@
 .footer {
   background-color: $light-green;
 
+  a {
+    color: $white;
+  }
+
+  figure {
+    display: none;
+
+    img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
   .container {
     padding-bottom: 65px;
     h1 {
@@ -168,9 +181,18 @@
 
 @media screen and (max-width: 870px) {
   .footer {
+    figure {
+      display: block;
+
+      img {
+        display: block;
+      }
+    }
     .container {
       h1 {
         font-size: 35px;
+        margin-top: -88px;
+        padding-top: 0;
       }
     }
   }

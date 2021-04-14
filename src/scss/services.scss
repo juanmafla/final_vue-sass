@@ -39,8 +39,6 @@
         figure {
           flex: 1;
           margin-right: 80px;
-          background-color: $gray2;
-          border: 1px solid $gray1;
         }
         .right-div {
           flex: 1;
@@ -82,7 +80,6 @@
     .row2-1 {
       display: none;
       position: relative;
-      padding-bottom: 230px;
       .bg-tale {
         background-color: $light-green;
         position: absolute;
@@ -97,6 +94,7 @@
           background-color: black;
           padding: 27px 23px;
           text-align: center;
+          font-weight: normal;
         }
         .mid-div {
           padding: 47px 23px;
@@ -205,6 +203,47 @@
   }
 }
 
+.terms.services {
+  p {
+    text-align: left;
+    margin-bottom: 40px;
+
+
+
+  }
+
+  ul, ol {
+    margin-left: 34px;
+    margin-bottom: 30px;
+
+  }
+
+  ul li {
+    list-style: disc;
+    display: list-item;
+    text-align: left;
+  }
+
+  ol li {
+    display: list-item;
+    text-align: left;
+    list-style: inherit;
+  }
+
+  @media screen and (max-width: 755px) {
+    .container .row1 {
+      background-color: transparent;
+      color: $black;
+    }
+
+    .container .row1 p {
+        color: $black;
+    }
+  }
+
+
+}
+
 @media screen and (max-width: 680px) {
   .services {
     .bg-img {
@@ -223,9 +262,10 @@
         padding: 0 23px 60px;
 
         h2 {
-          font-size: 30px;
+          font-size: 54px;
           text-align: left;
-          margin-bottom: 10px;
+          margin-bottom: 31px;
+          line-height: 58px;
         }
         p {
           font-size: 12px;
@@ -237,6 +277,7 @@
       }
       .row2-1 {
         display: block;
+        margin-top: 7px;
       }
     }
   }

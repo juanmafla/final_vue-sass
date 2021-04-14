@@ -23,6 +23,9 @@ import './js/script';
 //Components
 import Home from './pages/home/Home.vue';
 import Services from './pages/services/Services.vue';
+import Terms from './pages/terms/Terms.vue';
+import Privacy from './pages/privacy/Privacy.vue';
+import Cookies from './pages/cookies/Cookies.vue';
 
 Vue.use(VueRouter);
 
@@ -31,6 +34,9 @@ const routes = [
   { path: '/delivery/', component: Home },
   { path: '/contact/', component: Home },
   { path: '/account/', component: Home },
+  { path: '/terms/', component: Terms },
+  { path: '/privacy/', component: Privacy },
+  { path: '/cookies/', component: Cookies },
   { path: '/', component: Home },
 ];
 

@@ -2,7 +2,7 @@
   <div id="app">
     <div id="menu" class="mob-menu hidden fade-in">
       <div class="row1">
-        <img class="logo-brand" src="./assets/img/logo.png" />
+        <img class="logo-brand" src="./assets/img/white-logo-01.svg" />
         <img id="close-btn" class="menu-btn" src="./assets/img/Icon feather-menu-black.png" />
       </div>
       <ul class="row2">
@@ -46,7 +46,7 @@
           <router-link class="tab" :class="{ active: $route.name === 'delivery' }" to="/delivery" exact
             >Delivery On Demand</router-link
           >
-          <a href="#contact" class="tab">CONTACT Us</a>
+          <a href="#contact" class="tab">Contact Us</a>
           <router-link class="tab" :class="{ active: $route.name === 'account' }" to="/account" exact
             >My Account</router-link
           >
@@ -60,29 +60,32 @@
 
     <div class="footer">
       <div class="container" id="contact">
+      <figure>
+        <img src="./assets/img/van_mockup.svg" />
+      </figure>
         <h1>Contact Us</h1>
 
         <div class="row1">
           <div class="fname-input input-wrapper">
             <label for="fname">Full Name</label>
-            <input id="fname" type="text" value="" name="fname" placeholder="Stefan Walker" />
+            <input id="fname" type="text" value="" name="fname" />
           </div>
           <div class="phone-input input-wrapper">
             <label for="phone">Phone Number</label>
-            <input id="phone" type="text" value="" name="phone" placeholder="07852543590" />
+            <input id="phone" type="text" value="" name="phone" />
           </div>
           <div class="position-input input-wrapper">
             <span class="error-span">*Essential</span>
             <label for="position">Company Position</label>
-            <input id="position" type="text" value="" name="position" placeholder="Director" />
+            <input id="position" type="text" value="" name="position" />
           </div>
           <div class="email-input input-wrapper">
             <label for="email">Email Address</label>
-            <input id="email" type="email" value="" name="email" placeholder="stefanwalker112@gmail.com" />
+            <input id="email" type="email" value="" name="email" />
           </div>
           <div class="company-input input-wrapper">
             <label for="company" class="company">Company</label>
-            <input id="company" type="text" value="" name="company" placeholder="07852543590" />
+            <input id="company" type="text" value="" name="company" />
           </div>
           <div class="service-input input-wrapper">
             <label>Type of Service</label>
@@ -114,13 +117,17 @@
 
       <div class="footer-content">
         <div class="col1">
-          <p>© 2021 by Non Stop Logistics Terms & Conditions | Privacy Policy</p>
+          <p>© 2021 by Non Stop Logistics <router-link class="tab" :class="{ active: $route.name === 'terms' }" to="/terms" exact
+            >Terms & Conditions</router-link
+          > | <router-link class="tab" :class="{ active: $route.name === 'privacy' }" to="/privacy" exact
+            >Privacy Policy</router-link
+          ></p>
         </div>
         <div class="col2">
-          <a href="#"><img src="./assets/img/insta.png" /></a>
-          <a href="#"><img src="./assets/img/fb.png" /></a>
-          <a href="#"><img src="./assets/img/linkedin.png" /></a>
-          <a href="#"><img src="./assets/img/whatsapp.png" /></a>
+          <a href="#"><img src="./assets/img/icon-awesome-instagram.svg" /></a>
+          <a href="#"><img src="./assets/img/icon-awesome-facebook-f.svg" /></a>
+          <a href="#"><img src="./assets/img/icon-awesome-linkedin.svg" /></a>
+          <a href="#"><img src="./assets/img/icon-awesome-whatsapp.svg" /></a>
         </div>
         <div class="col3">
           <span class="left-span">Email Us: Info@nonstoplogistics.co.uk</span>

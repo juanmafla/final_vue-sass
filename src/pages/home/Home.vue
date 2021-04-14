@@ -15,9 +15,23 @@
           </p>
           <button>Login to My Account</button>
         </div>
-        <figure>
-          <img src="../../assets/img/car.png" />
-        </figure>
+        <div class='embed-container'>
+          <iframe src='https://www.youtube.com/embed/PzWF8piv8y4' frameborder='0' allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="rowmob">
+      <div class="container">
+        <h2>Delivery on Demand</h2>
+        <p>
+          Check out the video below for a quick introduction on how to book a delivery with us.
+        </p>
+
+        <div class='embed-container'>
+          <iframe src='https://www.youtube.com/embed/PzWF8piv8y4' frameborder='0' allowfullscreen></iframe>
+        </div>
+
+        <button>Sign up / Login</button>
       </div>
     </div>
 
@@ -42,8 +56,7 @@
               <span>Delivery</span>
             </h1>
             <p>
-              Same Day Delivery Service Whatever the size of your parcel Small or Large we'll be there to deliver it
-              same day!
+             we’ll delivery up to 50 parcels within a 25 mile radius.
             </p>
           </div>
         </div>
@@ -54,8 +67,7 @@
               <span>Delivery</span>
             </h1>
             <p>
-              Same Day Delivery Service Whatever the size of your parcel Small or Large we'll be there to deliver it
-              same day!
+             We offer a Secure package service For any parcels that require special handling and a first-class service.
             </p>
           </div>
         </div>
@@ -65,10 +77,7 @@
         <button>Find Out More</button>
       </div>
 
-      <figure>
-        <img src="../../assets/img/Gazelle_next_mockup.png" />
-      </figure>
-      <div class="bg-tale" />
+
     </div>
 
     <div class="row2">
@@ -76,7 +85,7 @@
       <div class="services-tabs">
         <div class="col1">
           <figure>
-            <img src="../../assets/img/Icon feather-truck.png" />
+            <img src="../../assets/img/icon-feather-truck.svg" />
           </figure>
           <h1>
             Same Day<br />
@@ -89,41 +98,38 @@
         </div>
         <div class="col1">
           <figure>
-            <img src="../../assets/img/Icon feather-package.png" />
+            <img src="../../assets/img/icon-feather-package.svg" />
           </figure>
           <h1>
             Multi drop<br />
             Delivery
           </h1>
           <p>
-            Same Day Delivery Service Whatever the size of your parcel Small or Large we'll be there to deliver it same
-            day!
+           we’ll delivery up to 50 parcels within a 25 mile radius.
           </p>
         </div>
         <div class="col1">
           <figure>
-            <img src="../../assets/img/Icon map-jewelry-store.png" />
+            <img src="../../assets/img/icon-map-jewelry-store.svg" />
           </figure>
           <h1>
             Secure<br />
             Delivery
           </h1>
           <p>
-            Same Day Delivery Service Whatever the size of your parcel Small or Large we'll be there to deliver it same
-            day!
+            We offer a Secure package service For any parcels that require special handling and a first-class service.
           </p>
         </div>
         <div class="col1">
           <figure>
-            <img src="../../assets/img/Icon awesome-euro-sign.png" />
+            <img src="../../assets/img/icon-awesome-euro-sign.svg" />
           </figure>
           <h1>
             European<br />
             Delivery
           </h1>
           <p>
-            Same Day Delivery Service Whatever the size of your parcel Small or Large we'll be there to deliver it same
-            day!
+           Need a parcel Delivered to or from Europe contact us.
           </p>
         </div>
       </div>
