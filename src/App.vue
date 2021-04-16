@@ -90,10 +90,10 @@
           <div class="service-input input-wrapper">
             <label>Type of Service</label>
             <select>
-              <option>Services</option>
-              <option>hello 1</option>
-              <option>hello 2</option>
-              <option>hello 3</option>
+              <option value="Same Day Delivery Services">Same Day Delivery Services</option>
+              <option value="Multi Drop Delivery Services">Multi Drop Delivery Services</option>
+              <option value="Secure Delivery Services">Secure Delivery Services</option>
+              <option value="European Delivery Services">European Delivery Services</option>
             </select>
           </div>
         </div>
