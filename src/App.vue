@@ -2,7 +2,7 @@
   <div id="app">
     <div id="menu" class="mob-menu hidden fade-in">
       <div class="row1">
-        <img class="logo-brand" src="./assets/img/white-logo-01.svg" />
+        <img class="logo-brand" src="./assets/img/logo.png" />
         <img id="close-btn" class="menu-btn" src="./assets/img/Icon feather-menu-black.png" />
       </div>
       <ul class="row2">
