@@ -16,6 +16,20 @@
 
   .container {
     padding-bottom: 65px;
+
+    .input-wrapper {
+      border-radius: 4px;
+      background: $white;
+      padding: 10px 14px;
+      box-shadow: 10px 10px 15px -14px rgba(45, 31, 80, 0.3);
+    }
+
+    textarea {
+      border: none;
+      width: 100%;
+      height: 113px;
+    }
+
     h1 {
       font-size: $footer-heading;
       font-weight: $medium;
