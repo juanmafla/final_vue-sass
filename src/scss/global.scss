@@ -229,3 +229,7 @@ a {
   animation-timing-function: ease-in;
   animation-duration: 0.5s;
 }
+
+input {
+  -webkit-user-select:text;
+}
