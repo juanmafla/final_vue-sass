@@ -99,8 +99,8 @@
         </div>
 
         <div class="row2  input-wrapper">
-          <h4>Describe Your Delivery Details</h4>
-          <textarea class="para" maxlength="200">
+          <h4>Description</h4>
+          <textarea class="para" maxlength="200" placeholder="Type here..">
           </textarea>
           <p class="limit">200 words max</p>
         </div>
